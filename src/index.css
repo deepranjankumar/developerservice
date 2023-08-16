@@ -1,0 +1,97 @@
+body{
+  margin:0px;
+  padding:0px;
+}
+.navbar{
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+  width: 90%;
+  align-items: center;
+}
+.navbar a{
+  margin-left: 30px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.navbar h1{
+  margin-right: auto;
+  margin-left: 52px;
+}
+.section-list{
+  display: flex;
+  justify-content:space-between;
+  margin: 0 auto;
+  width:82%;
+  align-items: center;
+  
+}
+.section-list img{
+  height:500px;
+  animation-name:deep;
+  animation-duration:4s;
+  animation-iteration-count:infinite;
+  
+}
+@keyframes deep {
+  0% {
+    transform:  translateX(-20px);
+  }
+  50% {
+    transform:  translateX(20px);
+  }
+  100% {
+    transform: translateX(-20px);
+  }
+}
+
+.Contact{
+  display:flex;
+  flex-direction:column;
+  margin:0 auto;
+  width:30%;
+  background-color: azure;
+}
+.Contact input,textarea {
+  height:30px;
+  border-radius: 6px;
+}
+.Contact label{
+  font-size:20px;
+  margin-top:10px;
+}
+.Contact .btn{
+  margin-right:auto;
+  margin-top:10px;
+  height:30px;
+  width:80px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  width:25%;
+  margin-left:22px;
+  margin-bottom: 22px;
+}
+.card img{
+  height:160px;
+  width:300px;
+}
+.card button{
+  margin-right:auto;
+  border-radius: 6px;
+  border-color: aqua;
+  color:aqua;
+  height:30px;
+  cursor: pointer;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin:0 auto ;
+  width:100%;
+}
